@@ -5,7 +5,6 @@ from st_functions import st_button, load_css
 # Cargar estilos
 load_css()
 
-# Colores
 AZUL = "#083b66"
 AZUL_CLARO = "#7ebaf4"
 
@@ -19,7 +18,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-# Estilo para imagen reducida
+# Imagen de perfil con ancho máximo en escritorio y fijo en móvil
 st.markdown(
     """
     <style>
@@ -27,24 +26,27 @@ st.markdown(
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0.5rem 0 0.3rem 0;
+        margin: 0.5rem 0;
     }
     .profile-pic-container img {
-        max-width: 110px !important;
+        width: 120px;
+        height: auto;
         border-radius: 50%;
+        max-width: 20vw;
+        min-width: 100px;
     }
     </style>
     """, unsafe_allow_html=True
 )
 
-# Imagen centrada
 with open("dp.png", "rb") as file:
     img_bytes = file.read()
+
 st.markdown("<div class='profile-pic-container'>", unsafe_allow_html=True)
-st.image(img_bytes)
+st.image(img_bytes, use_column_width=False)
 st.markdown("</div>", unsafe_allow_html=True)
 
-# Presentación más compacta
+# Presentación
 st.markdown("<h3 style='text-align: center; font-size: 17px;'>Hola, soy Fernando Carvajal 👋</h3>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; background-color: #e8f4ff; padding: 8px 12px; border-radius: 10px; font-size: 13px;'>"
