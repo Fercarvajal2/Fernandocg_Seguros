@@ -30,7 +30,7 @@ with col2:
 st.markdown("<h3 style='text-align: center;'>Hola, soy Fernando Carvajal 👋</h3>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; background-color: #e8f4ff; padding: 10px; border-radius: 10px;'>"
-    "Actuario y asesor de seguros. Ayudo a personas de todas las edades a proteger lo que más importa y a construir tranquilidad financiera a través del ahorro, el retiro y la inversión."
+    "Actuario y asesor de seguros. Ayudo a personas de todas las edades a proteger lo que más importa y a construir tranquilidad financiera a través del ahorro, el retiro, la protección y la inversión."
     "</p>",
     unsafe_allow_html=True
 )
