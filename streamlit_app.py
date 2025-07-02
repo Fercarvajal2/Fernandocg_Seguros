@@ -30,7 +30,7 @@ with col2:
 st.markdown("<h3 style='text-align: center;'>Hola, soy Fernando Carvajal 👋</h3>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; background-color: #e8f4ff; padding: 10px; border-radius: 10px;'>"
-    "Actuario y asesor de seguros. Ayudo a personas de todas las edades a proteger lo que más importa y a construir tranquilidad financiera a través del ahorro, el retiro y la prevención."
+    "Actuario y asesor de seguros. Ayudo a personas de todas las edades a proteger lo que más importa y a construir tranquilidad financiera a través del ahorro, el retiro y la inversión."
     "</p>",
     unsafe_allow_html=True
 )
@@ -38,7 +38,7 @@ st.markdown(
 # Redes sociales actualizadas
 st.markdown("<h4 style='text-align: center;'>📲 Conecta conmigo:</h4>", unsafe_allow_html=True)
 icon_size = 20
-st_button('whatsapp', 'https://api.whatsapp.com/send/?phone=5219996004456&text=Hola+Fernando%2C+me+interesa+comenzar+a+construir+mi+futuro+financiero+%F0%9F%92%BC%E2%9C%A8&type=phone_number&app_absent=0', 'Escríbeme por WhatsApp', icon_size)
+st_button('calendar', 'https://calendly.com/fernandoa-carvajalg', 'Agendar consultoría', icon_size)
 st_button('instagram', 'https://www.instagram.com/fernandocg_seguros/', 'Instagram @fernandocg_seguros', icon_size)
 st_button('linkedin', 'https://www.linkedin.com/in/fernandocarvajalgomez/', 'LinkedIn profesional', icon_size)
 st_button('facebook', 'https://www.facebook.com/FernandoCGSeguros', 'Facebook FernandoCGSeguros', icon_size)
@@ -62,7 +62,7 @@ st.markdown(
     <hr>
     <p style='text-align: center; color:{AZUL}; font-size: 16px;'>
     ¿Listo para comenzar a construir tu tranquilidad financiera? <br>
-    Estoy aquí para ayudarte.
+    Agenda tu espacio y empecemos.
     </p>
     """, unsafe_allow_html=True
 )

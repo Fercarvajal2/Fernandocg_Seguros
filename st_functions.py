@@ -41,7 +41,8 @@ def st_button(icon_name, url, label, icon_size=20):
         "twitter": "🐦",
         "newsletter": "📬",
         "cup": "☕",
-        "whatsapp": "💬"
+        "whatsapp": "💬",
+        "calendar": "📅"
     }
     icon = icons.get(icon_name, "")
     st.markdown(
