@@ -1,6 +1,9 @@
 
 import streamlit as st
 from st_functions import st_button, load_css
+import streamlit as st
+
+
 
 # Cargar estilos
 load_css()
@@ -23,7 +26,10 @@ st.markdown(
 # Imagen central (logo o perfil)
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image(Image.open("dp.png"), use_column_width=True)
+    with open("dp.png", "rb") as file:
+    img_bytes = file.read()
+
+st.image(img_bytes)
 
 # Presentación
 st.markdown("### Hola, soy Fernando Carvajal 👋")
