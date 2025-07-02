@@ -49,7 +49,7 @@ st_button('instagram', 'https://www.instagram.com/fernandocg_seguros/', 'Instagr
 st_button('linkedin', 'https://www.linkedin.com/in/fernandocarvajalgomez/', 'LinkedIn profesional', icon_size)
 st_button('facebook', 'https://www.facebook.com/FernandoCGSeguros', 'Facebook FernandoCGSeguros', icon_size)
 st_button('youtube', 'https://www.youtube.com/@SegurosConFernando', 'YouTube Seguros con Fernando', icon_size)
-st_button('cup', 'https://coff.ee/fercarvajal', 'Invítame un café ☕', icon_size)
+st_button('cup', 'https://coff.ee/fercarvajal', 'Invítame a una Manzana 🍎', icon_size)
 
 # Frase de cierre centrada
 st.markdown(
