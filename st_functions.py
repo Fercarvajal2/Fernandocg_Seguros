@@ -4,16 +4,27 @@ import streamlit as st
 def load_css():
     st.markdown("""
         <style>
-        .stButton>button {
+        .link-button-container {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .link-button {
             background-color: #7ebaf4;
             color: white;
-            padding: 8px 16px;
-            border-radius: 8px;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 16px;
+            display: inline-block;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            transition: background-color 0.3s ease;
             border: none;
-            font-weight: bold;
-            margin: 4px 0;
         }
-        .stButton>button:hover {
+        .link-button:hover {
             background-color: #083b66;
             color: white;
         }
@@ -34,8 +45,9 @@ def st_button(icon_name, url, label, icon_size=20):
     }
     icon = icons.get(icon_name, "")
     st.markdown(
-        f'<a href="{url}" target="_blank">'
-        f'<button style="font-size:{icon_size}px">{icon} {label}</button>'
-        f'</a>',
-        unsafe_allow_html=True
+        f"""
+        <div class="link-button-container">
+            <a class="link-button" href="{url}" target="_blank">{icon} {label}</a>
+        </div>
+        """, unsafe_allow_html=True
     )
