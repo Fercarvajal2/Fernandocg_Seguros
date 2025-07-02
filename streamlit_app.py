@@ -46,15 +46,18 @@ st_button('youtube', 'https://www.youtube.com/@SegurosConFernando', 'YouTube Seg
 st_button('cup', 'https://coff.ee/fercarvajal', 'Invítame un café ☕', icon_size)
 
 # Calendario centrado
-st.markdown("<h4 style='text-align: center;'>📅 ¿Qué publico cada semana?</h4>", unsafe_allow_html=True)
-st.markdown(
-    "<ul style='text-align: center; list-style-position: inside;'>"
-    "<li><strong>Lunes</strong>: Video corto (ahorro, PPR, seguros)</li>"
-    "<li><strong>Miércoles</strong>: Infografía o carrusel (tips, errores comunes, comparativos)</li>"
-    "<li><strong>Viernes</strong>: Historia real de algún cliente (vida real, emergencias, aprendizaje)</li>"
-    "</ul>",
-    unsafe_allow_html=True
-)
+mostrar_calendario = False
+
+if mostrar_calendario:
+    st.markdown("<h4 style='text-align: center;'>📅 ¿Qué publico cada semana?</h4>", unsafe_allow_html=True)
+    st.markdown(
+        "<ul style='text-align: center; list-style-position: inside;'>"
+        "<li><strong>Lunes</strong>: Video corto (ahorro, PPR, seguros)</li>"
+        "<li><strong>Miércoles</strong>: Infografía o carrusel (tips, errores comunes, comparativos)</li>"
+        "<li><strong>Viernes</strong>: Historia real de algún cliente (vida real, emergencias, aprendizaje)</li>"
+        "</ul>",
+        unsafe_allow_html=True
+    )
 
 # Frase de cierre centrada
 st.markdown(
