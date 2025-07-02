@@ -19,7 +19,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-# Estilo para imagen más compacta
+# Estilo para imagen reducida
 st.markdown(
     """
     <style>
@@ -27,10 +27,10 @@ st.markdown(
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0.8rem 0 0.4rem 0;
+        margin: 0.5rem 0 0.3rem 0;
     }
     .profile-pic-container img {
-        max-width: 140px !important;
+        max-width: 110px !important;
         border-radius: 50%;
     }
     </style>
@@ -45,7 +45,7 @@ st.image(img_bytes)
 st.markdown("</div>", unsafe_allow_html=True)
 
 # Presentación más compacta
-st.markdown("<h3 style='text-align: center; font-size: 18px;'>Hola, soy Fernando Carvajal 👋</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; font-size: 17px;'>Hola, soy Fernando Carvajal 👋</h3>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; background-color: #e8f4ff; padding: 8px 12px; border-radius: 10px; font-size: 13px;'>"
     "Actuario y asesor de seguros. Ayudo a personas de todas las edades a proteger lo que más importa y a construir tranquilidad financiera a través del ahorro, el retiro y la inversión."
