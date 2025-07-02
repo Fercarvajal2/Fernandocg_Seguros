@@ -40,7 +40,7 @@ def st_button(icon_name, url, label, icon_size=20):
         "medium": "✍️",
         "twitter": "🐦",
         "newsletter": "📬",
-        "cup": "☕",
+        "cup": "🍎",
         "whatsapp": "💬",
         "calendar": "📅"
     }
