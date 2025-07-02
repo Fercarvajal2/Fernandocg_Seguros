@@ -38,8 +38,7 @@ st.markdown(
 # Redes sociales actualizadas
 st.markdown("<h4 style='text-align: center;'>📲 Conecta conmigo:</h4>", unsafe_allow_html=True)
 icon_size = 20
-st_button('whatsapp', 'https://wa.me/5219996004456?text=Hola%20Fernando%2C%20me%20interesa%20comenzar%20a%20construir%20mi%20futuro%20financiero%20%F0%9F%92%BC%E2%9C%A8
-', 'Escríbeme por WhatsApp', icon_size)
+st_button('whatsapp', 'https://wa.me/5219996004456?text=Hola%20Fernando%2C%20me%20interesa%20comenzar%20a%20construir%20mi%20futuro%20financiero%20%F0%9F%92%BC%E2%9C%A8', 'Escríbeme por WhatsApp', icon_size)
 st_button('instagram', 'https://www.instagram.com/fernandocg_seguros/', 'Instagram @fernandocg_seguros', icon_size)
 st_button('linkedin', 'https://www.linkedin.com/in/fernandocarvajalgomez/', 'LinkedIn profesional', icon_size)
 st_button('facebook', 'https://www.facebook.com/FernandoCGSeguros', 'Facebook FernandoCGSeguros', icon_size)
